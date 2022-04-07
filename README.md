@@ -1,41 +1,46 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# [![4Geeks Logo](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo")](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo") Traffic Light With React / Javascript / CSS / Bootstrap.
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+## To-Dos:
 
-##### Download the boilerplate using git
+Simulate a traffic light.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+-   The light has to glow when clicked.
 
-##### and install the npm package:
+-   The whole purpose of the component is displaying a traffic light with red, yellow and green lights.
+
+-   When any light is clicked (selected) it has to glow, but the other lights have to stop glowing.
+
+-   The component must have a hooked state variable that tracks the color:
+
+-   Use the setColor function to change the color and the component will automatically re-render (because it's hooked with useState).
+
+
+
+![preview]()
+
+### Fundamentals
+
+This exercise covers the following fundamentals:
+
+1. Basic structure for React website.
+2. Use of Hooks.
+3. Use the ReactDOM.render to render the component into the DOM.
+
+## How can i preview the project?
+
+Use the following command to preview the project:
+
+##### install the npm package:
 ```
 $ npm install
 ```
 
-## Start coding!
-
 For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
 - `$ npm run start`
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
 
-## Publish your website!
+### About Me:
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+Github: [LeyCod](http://https://github.com/LeyCod "LeyCod")
+<br>
+Linkedin: [Emmanuel L. Guacache R.](http://https://www.linkedin.com/in/emmanuelleyan/ "Emmanuel Leyan Guacache Rodriguez")

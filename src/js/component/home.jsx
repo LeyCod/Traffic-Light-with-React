@@ -12,9 +12,9 @@ const Home = () => {
 					<div className="d-flex flex-column align-items-center">
 						<div className="container-support bg-black"></div>
 						<div className="container-lights d-flex flex-column justify-content-evenly align-items-center bg-black">
-							<div className="light bg-success"></div>
-							<div className="light bg-warning"></div>
-							<div className="light bg-danger"></div>
+							<div className="light red"></div>
+							<div className="light yellow"></div>
+							<div className="light green"></div>
 						</div>
 					</div>
 				</div>
