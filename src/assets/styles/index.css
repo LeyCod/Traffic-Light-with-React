@@ -1,0 +1,19 @@
+.container-support {
+    width: 25px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.container-lights {
+    width: 215px;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.light {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
