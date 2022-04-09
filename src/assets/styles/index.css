@@ -1,3 +1,11 @@
+/* Default Lights Colors */
+:root {
+    --red-light: rgb(255, 0, 0);
+    --yellow-light: rgb(255, 255, 0);
+    --green-light: rgb(0, 128, 0);
+    --active-light: var(--red-light);
+}
+/* Traffic Lights Support and Body Styles */
 .container-support {
     width: 25px;
     height: 100px;
@@ -11,21 +19,28 @@
     border-radius: 20px;
 }
 
+/* Traffic Lights Styles and colors */
 .light {
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255, 0.2);
     border-radius: 50%;
 }
 
 .red {
-    background-color: rgb(255, 0, 0);
+    background-color: var(--red-light);
 }
 
 .yellow {
-    background-color: rgb(255, 255, 0);
+    background-color: var(--yellow-light);
 }
 
 .green {
-    background-color: rgb(0, 128, 0);
+    background-color: var(--green-light);
+}
+
+.glow-effect {
+    -webkit-box-shadow: 0px 0px 25px 5px var(--active-light);
+-moz-box-shadow: 0px 0px 25px 5px var(--active-light);
+box-shadow: 0px 0px 25px 5px var(--active-light);
 }
