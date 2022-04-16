@@ -15,9 +15,7 @@ const Home = () => {
 						<div className="container-support bg-black"></div>
 						<div className="container-lights d-flex flex-column justify-content-evenly align-items-center bg-black">
 							<div
-								onClick={() => {
-									setActiveColor = "red";
-								}}
+								onClick={() => setActiveColor("red")}
 								className={
 									"light red" +
 									(ActiveColor === "red"
@@ -25,9 +23,7 @@ const Home = () => {
 										: "")
 								}></div>
 							<div
-								onClick={() => {
-									setActiveColor = "yellow";
-								}}
+								onClick={() => setActiveColor("yellow")}
 								className={
 									"light yellow" +
 									(ActiveColor === "yellow"
@@ -35,9 +31,7 @@ const Home = () => {
 										: "")
 								}></div>
 							<div
-								onClick={() => {
-									setActiveColor = "green";
-								}}
+								onClick={() => setActiveColor("green")}
 								className={
 									"light green" +
 									(ActiveColor === "green"

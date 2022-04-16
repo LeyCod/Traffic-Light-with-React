@@ -3,7 +3,7 @@
     --red-light: rgb(255, 0, 0);
     --yellow-light: rgb(255, 255, 0);
     --green-light: rgb(0, 128, 0);
-    --active-light: var(--red-light);
+    --active-light: rgb(255,255,255);
 }
 /* Traffic Lights Support and Body Styles */
 .container-support {
